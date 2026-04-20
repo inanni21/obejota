@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.caixa-container {
+  position: fixed;
+  left: 0;
+    top: 0px;
+  display: flex;
+  flex-direction: row; 
+  box-sizing: border-box; 
+  width: 100%;           
+  background-color: #3450B0; 
+  border: 2px solid #333; 
+  padding: 0;           
+  justify-content: space-between; 
+  align-items: center;  
+}
+.caixa-filha{
+margin: 0;
+width: 15%;
+height:100%;
+display: flex;
+flex-direction: row;
+justify-content: center; 
+align-items: center;
+}
+.caixa-filha p {
+    font-size: 30px;
+justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.caixa-filha ul{
+  display: flex;
+  flex-direction: row; 
+  list-style-type: none;
+  gap: 15px;
+  padding: 0; 
+  margin-right:150px;
+ align-items: center;
+ 
+  }
+  .caixa-filha ul>li>a{
+    font-family: Arial, Helvetica, sans-serif;
+ color: black;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #3450B0;
+    }
+    form{
+    background-color: #3450B0;   
+    padding: 20px;
+    width: 60%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0)
+  }
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: flex-start;
+  }
+    .menu-oculto {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+
+    }
+    #shows:hover .menu-oculto {
+        display: block;
+    }
+    .sobre {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #autografo{
+        margin-top: 250px;
+        margin-right: 30px;
+    }
+    #description {
+        background-color: #3450B0;
+        width: 50%;
+        height: 300px;
+         border-radius: 15px;
+         padding: 10px;
+         
+         
+    }
+    #description p, #description h3 {
+        color: white;
+    }
+    footer p>a {
+        color:black;
+    }
+    .discos{
+        display: grid;
+    
+    }
