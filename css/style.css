@@ -1,10 +1,11 @@
 body{
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: hsl(238, 63%, 43%);
+  background-color: rgb(197, 197, 197);
 }
 
 
@@ -12,6 +13,7 @@ body{
   position: fixed;
   left: 0;
     top: 0px;
+    margin-top: 0px;
   display: flex;
   flex-direction: row; 
   box-sizing: border-box; 
@@ -39,8 +41,8 @@ font-family: Arial, Helvetica, sans-serif;
 .caixa-filha ul{
   display: flex;
   flex-direction: row; 
-  list-style-type: none;
-  gap: 15px;
+  list-style: none;
+  gap: 20px;
   padding: 0; 
   margin-right:150px;
  align-items: center;
@@ -51,6 +53,7 @@ font-family: Arial, Helvetica, sans-serif;
     font-family: Arial, Helvetica, sans-serif;
  color: black;
   }
+
   footer {
     position: fixed;
     bottom: 0;
@@ -63,10 +66,10 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: #3450B0;
     }
     form{
-    background-color: #3450B0;   
-    padding: 20px;
+    background-color: rgb(197, 197, 197);   
+    padding: 5px;
     width: 60%;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 60px;
     display: flex;
     flex-direction: column;
@@ -84,18 +87,26 @@ font-family: Arial, Helvetica, sans-serif;
     font-family: "Courier New", monospace;
   }
     .menu-oculto {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    list-style: none;
+    padding: 10px;
     }
-    #shows:hover .menu-oculto {
-        display: block;
+    .shows {
+    position: relative;
+}
+    .shows:hover .menu-oculto {
+       display: block;
     }
     .sobre {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+    .sobre img{
+      margin-left: 20px;
     }
     #autografo{
         margin-top: 250px;
@@ -107,20 +118,16 @@ font-family: Arial, Helvetica, sans-serif;
         height: 300px;
          border-radius: 15px;
          padding: 10px;
-         
-         
     }
     #description p, #description h3 {
-        color: white;
+        color: rgb(0, 0, 0);
     }
     footer p>a {
         color:black;
     }
     .discos{
         display: grid;
-    
     }
     h4{
       font-family: Georgia, serif;
     }
-  
