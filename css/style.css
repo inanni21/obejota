@@ -4,6 +4,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: hsl(238, 63%, 43%);
 }
 
 
@@ -43,6 +44,7 @@ font-family: Arial, Helvetica, sans-serif;
   padding: 0; 
   margin-right:150px;
  align-items: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  
   }
   .caixa-filha ul>li>a{
@@ -79,6 +81,7 @@ font-family: Arial, Helvetica, sans-serif;
     flex-direction: column;
     justify-content: center ;
     align-items: flex-start;
+    font-family: "Courier New", monospace;
   }
     .menu-oculto {
         display: none;
@@ -117,3 +120,7 @@ font-family: Arial, Helvetica, sans-serif;
         display: grid;
     
     }
+    h4{
+      font-family: Georgia, serif;
+    }
+  
